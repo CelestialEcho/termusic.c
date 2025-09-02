@@ -1,0 +1,17 @@
+-v          --version           shows build version
+-h          --help              displays all of the available commands
+-a          --about             Shows the about text    
+-d          --debug             turn on verbose output info
+-p <path>   --play <path>       plays the selected music file or playlist from the selected path
+-e <path>   --enum <path>       enumerate all the available tracks from the directory
+-s <name>   --stop <name>       stop plays current playlist or tracks
+-m <volume> --volume <volume>   set music volume  
+            --repeat <flag>     could be only used with play argument, repeats the current file or playlist
+            --shuffle <flag>    could be only used with playlist arg, shuffles the tracks queue
+-l          --list              displays all playing tracks and playlists
+            --dry-run           checks if player could play this playlist or file
+            --formats           displays all the supported formats
+            --next              stop playing current track, plays the next one
+            --prev              stop playing current track, plays the previous one
+
+
